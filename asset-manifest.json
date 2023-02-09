@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/chat-FullStuck/static/css/main.f45b4ab0.css",
-    "main.js": "/chat-FullStuck/static/js/main.d9409b8f.js",
+    "main.js": "/chat-FullStuck/static/js/main.05f60ce4.js",
     "index.html": "/chat-FullStuck/index.html",
     "main.f45b4ab0.css.map": "/chat-FullStuck/static/css/main.f45b4ab0.css.map",
-    "main.d9409b8f.js.map": "/chat-FullStuck/static/js/main.d9409b8f.js.map"
+    "main.05f60ce4.js.map": "/chat-FullStuck/static/js/main.05f60ce4.js.map"
   },
   "entrypoints": [
     "static/css/main.f45b4ab0.css",
-    "static/js/main.d9409b8f.js"
+    "static/js/main.05f60ce4.js"
   ]
 }
