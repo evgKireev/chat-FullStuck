@@ -4,7 +4,6 @@ import reducer from './reducer'
 import socket from './constants'
 import JoinBlock from './Components/JoinBlock.jsx'
 import Chat from './Components/Chat'
-import axios from 'axios'
 import API from './api'
 
 function App() {

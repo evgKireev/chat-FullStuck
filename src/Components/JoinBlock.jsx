@@ -12,7 +12,9 @@ export default function JoinBlock({ isLogin }) {
       return alert('Неверные данные!')
     }
     setLoading(true)
-    API.post('/rooms', obj).then(isLogin(obj))
+    setTimeout(() => {
+      API.post('/rooms', obj).then(isLogin(obj))
+    }, 0)
   }
   return (
     <div className="join-block">
