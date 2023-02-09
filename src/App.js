@@ -5,7 +5,6 @@ import socket from './constants'
 import JoinBlock from './Components/JoinBlock.jsx'
 import Chat from './Components/Chat'
 import axios from 'axios'
-
 function App() {
   const [state, dispatch] = React.useReducer(reducer, {
     isAuth: false,
