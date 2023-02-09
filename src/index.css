@@ -61,6 +61,7 @@
   flex: 1;
   height: calc(100% - 155px);
   overflow: auto;
+  text-align: start;
 }
 
 .message {
