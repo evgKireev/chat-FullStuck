@@ -5,6 +5,8 @@ import socket from './constants'
 import JoinBlock from './Components/JoinBlock.jsx'
 import Chat from './Components/Chat'
 import axios from 'axios'
+import API from './api'
+
 function App() {
   const [state, dispatch] = React.useReducer(reducer, {
     isAuth: false,
@@ -19,7 +21,7 @@ function App() {
       payload: obj,
     })
     socket.emit('ROOM:JOIN', obj)
-    const { data } = await axios.get(`/rooms/${obj.roomId}`)
+    const { data } = await API.get(`/rooms/${obj.roomId}`)
     dispatch({
       type: 'SET_DATA',
       payload: data,

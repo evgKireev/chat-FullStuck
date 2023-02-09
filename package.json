@@ -32,7 +32,6 @@
       "react-app/jest"
     ]
   },
-  "proxy": "https://chat-backend-production.up.railway.app",
   "browserslist": {
     "production": [
       ">0.2%",

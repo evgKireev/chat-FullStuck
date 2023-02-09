@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import API from '../api'
 
 export default function JoinBlock({ isLogin }) {
   const [roomId, setRoomId] = useState('')
@@ -11,7 +12,7 @@ export default function JoinBlock({ isLogin }) {
       return alert('Неверные данные!')
     }
     setLoading(true)
-    axios.post('/rooms', obj).then(isLogin(obj))
+    API.post('/rooms', obj).then(isLogin(obj))
   }
   return (
     <div className="join-block">
